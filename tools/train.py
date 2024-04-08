@@ -37,7 +37,7 @@ def main(args, ) -> None:
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', '-c', type=str,default='./configs/rtdetr/rtdetr_r18vd_6x_coco.yml' )
+    parser.add_argument('--config', '-c', type=str,default='../configs/rtdetr_pytorch/configs/rtdetr/rtdetr_r18vd_6x_coco.yml' )
     parser.add_argument('--resume', '-r', type=str,default=False )
     parser.add_argument('--tuning', '-t', type=str, default=False)
     parser.add_argument('--test-only', action='store_true', default=False,)
